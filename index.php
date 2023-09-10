@@ -6,7 +6,6 @@ $perpage = 10;
 
 if(isset($_GET['page']) && (int) $_GET['page']>0){
     $page = $_GET['page'];
-    // $AA = 1111;
 }else{
     $page = 1;
 }
